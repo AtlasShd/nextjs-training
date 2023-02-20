@@ -1,0 +1,19 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": ["src/**/*.tsx"],
+      "options": {
+        "singleQuote": true,
+        "trailingComma": "all",
+        "printWidth": 120
+      }
+    }
+  ],
+  "exclude": [
+    "**/*",
+    "!src/**"
+  ]
+}

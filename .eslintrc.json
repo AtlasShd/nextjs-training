@@ -1,4 +1,11 @@
 {
+  "root": true,
+  "ignorePatterns": [
+    "!src/",
+    "!src/**",
+    "!pages/",
+    "!pages/**"
+  ],
   "extends": "next/core-web-vitals"
 }
   
